@@ -12,4 +12,4 @@ This is a set of scripts to use in Aseprite v1.2.10 or newer.
 
 ## Can I use/modify these scripts for my own purposes?
 
-Yes.
+Yes. This code is licensed under the [MIT license](LICENSE.txt).
