@@ -1,3 +1,10 @@
+----------------------------------------------------------------------
+-- A customizable toolbar that can be useful in touch-like devices
+-- (e.g. on a Microsoft Surface).
+--
+-- Feel free to add new commands and modify it as you want.
+----------------------------------------------------------------------
+
 local dlg = Dialog("Touch Toolbar")
 dlg
   :button{text="Undo",onclick=function() app.command.Undo() end}
