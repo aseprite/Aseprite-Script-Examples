@@ -50,8 +50,7 @@ function TileSplitter(tile_w,tile_h,spr)
 
     -- Copy and paste the selection
     app.command.CopyMerged()
-    app.command.NewLayer()
-    app.command.Paste()
+    app.command.NewLayer{ ["fromClipboard"] = true }
 
     -- Rename the layer
     app.activeLayer.name = "Tile "..count
