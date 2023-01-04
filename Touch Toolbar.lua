@@ -14,5 +14,5 @@ dlg
   :button{text=">",onclick=function() app.command.GotoNextFrame() end}
   :button{text=">|",onclick=function() app.command.GotoLastFrame() end}
   :button{text="+",onclick=function() app.command.NewFrame() end}
-  :button{text="-",onclick=function() app.command.DeleteFrame() end}
+  :button{text="-",onclick=function() app.command.RemoveFrame() end}
   :show{wait=false}
