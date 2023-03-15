@@ -1,3 +1,17 @@
+----------------------------------------------------------------------
+-- This example shows how to create a simple path editor,
+-- using the canvas widget.
+----------------------------------------------------------------------
+
+if app.apiVersion < 21 then
+    return app.alert("This script requires Aseprite v1.3-rc1")
+end
+
+-- This script requires UI
+if not app.isUIAvailable then
+    return
+end
+
 local PointRadius = 5
 
 -- Use the theme colors
